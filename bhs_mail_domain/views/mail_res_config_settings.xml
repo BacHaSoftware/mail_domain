@@ -1,0 +1,30 @@
+<odoo>
+    <record id="res_config_settings_view_form_email_from_configs" model="ir.ui.view">
+        <field name="name">res.config.settings.form.email_from_configs</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='invite_users']" position="after">
+                <h2>Configure Email</h2>
+                <div class="row mt16 o_settings_container" id="email_from_configs">
+                    <div class="col-12 col-lg-6 o_setting_box"
+                        id="aws_cognito_setting">
+                        <div class="o_setting_right_pane">
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="sever_email_replace" class="mb-2 o_light_label"/>
+                                    <field name="sever_email_replace" placeholder="Input Sever Email From"/>
+                                </div>
+                                <div class="row mt16">
+                                    <label for="email_domains" class="mb-2 o_light_label"/>
+                                    <field name="email_domains" placeholder="Input Domain Email"/>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
