@@ -121,7 +121,7 @@ Need assistance with setup or have any concerns? Contact Bac Ha Software directl
 
 [![WEBSITE][website-shield]][website-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Project Link: [https://github.com/BacHaSoftware/bhs_mail_domain](https://github.com/BacHaSoftware/bhs_mail_domain)
+Project Link: [https://github.com/BacHaSoftware/mail_domain](https://github.com/BacHaSoftware/mail_domain)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
