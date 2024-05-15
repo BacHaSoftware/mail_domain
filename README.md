@@ -88,8 +88,8 @@ This module needs the Python library <code>slackclient</code>, <code>html-slacke
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-A product of Bac Ha Software allows unassigned user from task when click avatar user easily.
-
+If email does not belong to company's domain, it will be sent from a configured email address instead of user's email.
+  
 #### Featured Highlight:
 
 🌟 <code>Simple Setup</code>: Adjust settings directly from the General Settings menu, applying the rule to all emails sent from your staffs.
