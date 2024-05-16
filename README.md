@@ -71,7 +71,7 @@
 <!-- PREREQUISTES  
 ### Prerequisites
 
-This module needs the Python library <code>slackclient</code>, <code>html-slacker</code>, otherwise it cannot be installed and used. Install them through the command
+This  module needs the Python library <code>slackclient</code>, <code>html-slacker</code>, otherwise it cannot be installed and used. Install them through the command
   ```sh
   sudo pip3 install slackclient
   sudo pip3 install html-slacker
